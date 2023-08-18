@@ -17,7 +17,7 @@ def o_wins(ls):
         if (ls[i][0]=='o' and ls[i][1]=='o' and ls[i][2]=='o'):
             return True
     for i in range(3):
-        if (ls[0][i]=='o' and ls[1][i]=='o' and ls[2][1]=='o'):
+        if (ls[0][i]=='o' and ls[1][i]=='o' and ls[2][i]=='o'):
             return True    
     if (ls[0][2]=='o' and ls[1][1]=='o' and ls[2][0]=='o'):
         return True 
