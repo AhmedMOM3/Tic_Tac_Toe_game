@@ -1,3 +1,4 @@
+# electro pi
 #func checks if x wins
 def x_wins(ls):
     for i in range(3):
